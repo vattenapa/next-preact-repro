@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "12.2.1-canary.1",
+    "next-plugin-preact": "^3.0.7",
+    "preact": "^10.8.2",
+    "preact-render-to-string": "^5.2.0",
+    "react": "npm:@preact/compat@^17.1.1",
+    "react-dom": "npm:@preact/compat@^17.1.1",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0"
+  }
+}
